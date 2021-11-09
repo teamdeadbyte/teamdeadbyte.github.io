@@ -1,0 +1,50 @@
+.logo {
+  max-width: 100%;
+  height: auto;
+  //margin: 8px 0px;
+}
+
+.bg-effect {
+  opacity: 1;
+}
+
+#flower-b {
+  animation: 6s linear infinite flower, 30s ease-out slideup forwards;
+}
+
+#flower-y {
+  animation: 6s linear 2s infinite flower, 30s ease-out slideup forwards;
+}
+
+#flower-p {
+  animation: 6s linear 4s infinite flower, 30s ease-out slideup forwards;
+}
+
+@keyframes flower {
+  0% {
+    opacity: 1;
+  }
+
+  16.20% {
+    opacity: 0;
+  }
+
+  17.20% {
+    opacity: 0;
+  }
+
+  33.33% {
+    opacity: 1;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 992px) {
+  .logo {
+    overflow: hidden;
+    flex: 0 1 auto;
+  }
+
+  body {
+    height: 100%;
+  }
+}
