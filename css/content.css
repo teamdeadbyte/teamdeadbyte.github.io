@@ -75,6 +75,10 @@ q {
   color: #388bfd;
 }
 
+.content a:hover {
+  text-decoration-color: #388bfd;
+}
+
 .content-title {
   //font-family: serif;
   font-size: 5rem;
