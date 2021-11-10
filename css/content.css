@@ -71,6 +71,10 @@ q {
   text-align: start;
 }
 
+.content a {
+  color: #388bfd;
+}
+
 .content-title {
   //font-family: serif;
   font-size: 5rem;
